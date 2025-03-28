@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-indigo-700 text-white p-4 text-white p-6 shadow-md text-center"">
+        <h1 class="text-3xl">Contact Us</h1>
+    </header>
+    <nav class="bg-indigo-500 text-white p-4 text-center">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="homepage.html" class="hover:underline">Home</a></li>
+            <li><a href="aboutus.html" class="hover:underline">About Us</a></li>
+            <li><a href="services.html" class="hover:underline">Services</a></li>
+            <li><a href="faqs.html" class="hover:underline">FAQ</a></li>
+        </ul>
+    </nav>
+    <main class="p-6">
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <label for="name" class="block text-sm font-medium">Name</label>
+                <input type="text" id="name" name="name" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium">Email</label>
+                <input type="email" id="email" name="email" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md" />
+            </div>
+            <div>
+                <label for="message" class="block text-sm font-medium">Message</label>
+                <textarea id="message" name="message" required class="mt-1 block w-full p-2 border border-gray-300 rounded-md" rows="4"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white p-2 rounded-md">Send Message</button>
+        </form>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4 text-center">
+        <p>&copy; 2025 Air Conditioning Business</p>
+    </footer>
+
+</body>
+</html>
